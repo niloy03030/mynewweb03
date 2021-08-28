@@ -1,0 +1,184 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Work Sans", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+.myown.btn {
+  color: #6278df;
+}
+.btn:hover {
+  background-color: #6278df;
+}
+.slider-section {
+  background: url(img/mbr-10.jpg) no-repeat center center;
+  padding: 200px 0;
+  position: relative;
+  z-index: 1;
+}
+.slider-section::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.jon-header .navbar-brand {
+  font-size: 25px;
+  font-weight: 500;
+}
+.jon-header span {
+  display: inline-block;
+  background-color: #6278df;
+  color: white;
+  height: 47px;
+  width: 44px;
+  border-radius: 10px;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  top: 2px;
+  margin-right: 6px;
+}
+.slider-caption h2 {
+  margin-bottom: 41px;
+  font-size: 44px;
+}
+.slider-caption h4 {
+  margin-bottom: 30px;
+}
+.slider-caption .btn {
+  color: white;
+}
+.number-container .h2 {
+  font-weight: 600;
+  font-size: 53px;
+}
+.about-section {
+  background-color: #f7f9ff;
+}
+.about-text-left {
+  margin-top: 120px;
+}
+/*feature section css*/
+.feature-item {
+  height: 300px;
+  box-shadow: 7px 6px 14px 0;
+}
+.left-img-sec {
+  width: 40%;
+  overflow: hidden;
+  border-radius: 5px 0 0 5px;
+}
+.right-text-sec {
+  width: 60%;
+  padding: 27px;
+}
+.left-img-sec img {
+  height: 100%;
+  width: auto !important;
+  max-width: inherit;
+  position: relative;
+  left: -51px;
+}
+
+/* potfolio css */
+.potfolio-item {
+}
+.potfolio-item a {
+  position: relative;
+  display: block;
+}
+.potfolio-item a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(98, 120, 223, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+}
+.potfolio-item:hover a::after {
+  opacity: 1;
+  visibility: visible;
+}
+.bg-color {
+  background-color: #f7f9ff;
+}
+.pricing-item {
+  background-color: white;
+  border-radius: 5px;
+  padding: 30px;
+}
+.pricing-item h1 {
+}
+.pricing-item h4 {
+}
+
+.pricing-item ul {
+  list-style: none;
+  margin-bottom: 45px;
+  margin-left: 0;
+  padding-left: 0;
+}
+.pricing-item ul li {
+  font-size: 23px;
+  margin-bottom: 24px;
+}
+.pricing-item ul li span {
+  color: #6278df;
+  font-size: 33px;
+  font-weight: bold;
+  display: inline-block;
+  width: 38px;
+}
+.price-section-btn a {
+  padding: 20px 62px;
+  font-size: 24px;
+  box-shadow: 7px 6px 14px 0;
+  border-color: white;
+}
+.pricing-item:hover .btn {
+  background-color: #6278df;
+  color: white;
+}
+.author-info {
+  width: 250px;
+  margin: auto;
+}
+.author-info img {
+  width: 100px;
+  margin-right: 20px;
+}
+.user-details {
+  position: relative;
+  top: 13px;
+}
+.about-details {
+  margin-top: 141px;
+}
+.card img {
+  width: 144px;
+  height: auto;
+  margin-top: -78px;
+  margin-left: 10px;
+}
+.card {
+  padding: 20px;
+}
+.btn-p {
+  padding: 12px 46px;
+  font-size: 20px;
+}
